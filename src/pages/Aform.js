@@ -48,6 +48,18 @@ const AttendanceForm = () => {
     } else {
       alert("You can only give attendance for the current date.");
     }
+     const formResponses = {
+      name,
+      rollNo,
+      email,
+      mobileNo,
+      selectedDate,
+      subject,
+      attendance,
+    };
+    console.log("Form Responses:", formResponses);
+  };
+
   };
 
   return (
